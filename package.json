@@ -1,0 +1,25 @@
+{
+  "name": "joe-s-proxy",
+  "version": "1.0.0",
+  "description": "proxy server demo freetable hrsf125 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10-free-table/Joe-s-Proxy.git"
+  },
+  "author": "Joe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/10-free-table/Joe-s-Proxy/issues"
+  },
+  "homepage": "https://github.com/10-free-table/Joe-s-Proxy#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
