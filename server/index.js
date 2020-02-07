@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/', (req, res) => {
-  axios.get('http://localhost:3002/1')
+app.get('/:pagenum', (req, res) => {
+  axios.get('http://localhost:3002/' + req.params.pagenum)
     .then(response => {
       res.send(response.data);
     })
